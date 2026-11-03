@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Tes Situs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Situs Gue</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Halo semua, ini saya nyoba bkin situs</h1>
-  <p>Gualagi belajar bikin website.</p>
+
+  <header class="navbar">
+    <a href="#home" class="logo">SYA</a>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#game">Game</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="tag">Selamat datang</p>
+      <h1>Halo, gue <span>Nama Lu</span></h1>
+      <p class="desc">Lagi belajar bikin website. Ini situs pertama gue.</p>
+      <a href="game-perang/" class="btn">Main Game</a>
+    </section>
+
+    <section id="tentang" class="section">
+      <h2>Tentang</h2>
+      <p>Tulis perkenalan singkat tentang lu di sini: kuliah di mana, jurusan apa, dan apa yang lagi lu pelajari.</p>
+    </section>
+
+    <section id="game" class="section">
+      <h2>Game</h2>
+      <div class="cards">
+        <a href="game-perang/" class="card card-link">
+          <h3>Tembak Musuh</h3>
+          <p>Klik musuh yang muncul sebelum hilang. Waktunya 30 detik.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <h2>Proyek</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Proyek 1</h3>
+          <p>Deskripsi singkat proyek pertama lu.</p>
+        </div>
+        <div class="card">
+          <h3>Proyek 2</h3>
+          <p>Deskripsi singkat proyek kedua lu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <h2>Kontak</h2>
+      <p>Hubungi gue lewat email: email@contoh.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Situs Gue. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+  </footer>
+
 </body>
 </html>
